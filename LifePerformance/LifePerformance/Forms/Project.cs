@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LifePerformance
+namespace LifePerformance.Forms
 {
-    public partial class Form1 : Form
+    public partial class Project : Form
     {
-        public Form1()
+        public Project()
         {
             InitializeComponent();
         }
