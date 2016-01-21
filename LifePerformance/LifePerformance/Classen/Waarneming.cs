@@ -43,6 +43,10 @@ namespace LifePerformance.Classen
             AddWaarneming();
         }
 
+        /// <summary>
+        /// hier word een nieuwe waarneming aangemaakt als panel met een label. 
+        /// dit word daarna mee gegeven aan het form om te tekenen op het scherm
+        /// </summary>
         private void AddWaarneming()
         {
             WaarnemingPanel = new Panel
@@ -86,6 +90,11 @@ namespace LifePerformance.Classen
             }
         }
 
+        /// <summary>
+        /// click event om de informatie te bekijken van de waarneming
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Panel_Click(object sender, EventArgs e)
         {
             WaarnemingInfo waarnemingInfo = new WaarnemingInfo(Vogel, Type, Time);
