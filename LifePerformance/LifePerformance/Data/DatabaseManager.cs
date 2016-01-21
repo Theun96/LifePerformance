@@ -26,9 +26,8 @@ namespace LifePerformance.Data
                 }
                 catch (Exception ex)
                 {
-                    
+                    throw;
                 }
-                return null;
             }
         }
 
